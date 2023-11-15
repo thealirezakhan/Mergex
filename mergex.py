@@ -11,6 +11,7 @@ import pytesseract
 import streamlit as st 
 from reportlab.pdfgen import canvas
 from PIL import Image
+import sklearn
 
 count = 0
 scale = 0.5
