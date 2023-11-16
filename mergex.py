@@ -15,7 +15,6 @@ from PIL import Image
 count = 0
 scale = 0.5
 
-
 """
 # MergeX 🚀
 
@@ -34,8 +33,7 @@ try:
             return img   
                 
         if image_file is not None:
-
-            imgdir = "/"
+            imgdir = "converted"
             with open(image_file.name, "wb") as f:
                 f.write(image_file.getbuffer())
                     
