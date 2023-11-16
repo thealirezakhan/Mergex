@@ -6,3 +6,4 @@ reportlab==4.0.7
 imutils==0.5.4
 streamlit==1.28.1
 scipy==1.11.3
+pytesseract==0.3.10
