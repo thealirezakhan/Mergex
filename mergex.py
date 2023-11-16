@@ -35,8 +35,8 @@ try:
                 
         if image_file is not None:
 
-            imgdir = "./"
-            with open(os.path.join(image_file.name), "wb") as f:
+            imgdir = "/"
+            with open(image_file.name, "wb") as f:
                 f.write(image_file.getbuffer())
                     
             # st.success("File saved")    
@@ -46,7 +46,7 @@ try:
     pdffile = image_file.name
     # print(pdffile)
     
-    images = convert_from_path(os.path.join(pdffile),800, poppler_path="C:/Program Files/poppler-23.11.0/Library/bin")
+    images = convert_from_path(pdffile,800, poppler_path="C:/Program Files/poppler-23.11.0/Library/bin")
     
                 
     for i in range(len(images)):
