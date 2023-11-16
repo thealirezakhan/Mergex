@@ -33,7 +33,7 @@ try:
             return img   
                 
         if image_file is not None:
-            imgdir = "./"
+            imgdir = "./thealirezakhan/Mergex"
             with open(image_file.name, "wb") as f:
                 f.write(image_file.getbuffer())
                     
