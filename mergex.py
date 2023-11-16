@@ -33,11 +33,11 @@ try:
             return img   
                 
         if image_file is not None:
-            imgdir = "converted"
+            imgdir = "./"
             with open(image_file.name, "wb") as f:
                 f.write(image_file.getbuffer())
                     
-            # st.success("File saved")    
+            st.success("File saved")    
 
         
     global pdffile
